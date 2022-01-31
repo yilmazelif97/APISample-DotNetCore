@@ -101,6 +101,7 @@ namespace APISample.Controllers
         //posttan 5 tane veri yollama şekli var, fromform-fromquery-fromheader-frombody-fromroute
 
         //defaultta zaten httpget ya fromroute ya da fromquery çalıştığından bunları tekrar işaretlemene gerek yok
+        //Sensitive data ile çalışılacaksa her zaman Http post kullanmalısın 
 
 
 

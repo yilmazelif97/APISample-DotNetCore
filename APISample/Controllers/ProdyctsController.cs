@@ -79,7 +79,7 @@ namespace APISample.Controllers
             //farklı şekillerde post ile veri taşınabilir
             //fromheader, fromquery, gibi
 
-            return Created(new Uri($"api/prodycts/v1/{model.Id}"), model);
+            return Created($"api/prodycts/v1/{model.Id}", model);
 
 
         }
@@ -92,7 +92,7 @@ namespace APISample.Controllers
             //farklı şekillerde post ile veri taşınabilir
             //fromheader, fromquery, gibi
 
-            return Created(new Uri($"api/prodycts/v1/{model.Id}"), model);
+            return Created($"api/prodycts/v1/{model.Id}", model);
 
 
         }

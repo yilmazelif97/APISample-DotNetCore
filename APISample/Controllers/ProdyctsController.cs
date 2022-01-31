@@ -97,6 +97,11 @@ namespace APISample.Controllers
 
         }
 
+        //get ve post için headerden bilgi gönderebilirsin
+        //posttan 5 tane veri yollama şekli var, fromform-fromquery-fromheader-frombody-fromroute
+
+
+
 
 
 
